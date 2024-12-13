@@ -13,7 +13,7 @@ local function checkVersion()
             print("^3[" .. expectedResourceName .. "] - New update available now!")
             print("^7Current version: ^1" .. CurrentVersion)
             print("^7New version: ^2" .. NewVersion)
-            print("^3Download it now on the github: https://github.com/Norpf-Mooooo/Norpf-RadioAnim/releases")
+            print("^3Download it now on the github: https://github.com/Mg-Store/mg-radioanim/releases")
             print("^1#########################################")
         else
             print("^2Your server has the latest version.")
