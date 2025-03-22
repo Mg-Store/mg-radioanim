@@ -2,7 +2,7 @@ fx_version "adamant"
 
 description "Mg Store | mg-radioanim"
 author "MG"
-version "1.0.0"
+version "1.2.0"
 lua54 "yes"
 game "gta5"
 
