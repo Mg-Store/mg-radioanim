@@ -6,10 +6,6 @@ version "1.0.0"
 lua54 "yes"
 game "gta5"
 
-escrow_ignore { 
-    "Settings.lua"
-}
-
 shared_script {
     '@qb-core/shared/locale.lua',
     '@ox_lib/init.lua',
@@ -26,7 +22,8 @@ server_script {
 }
 
 files {
-    "stream/*.ycd"
+    "stream/*.ycd",
+    "assets/images/*.png"
 }
 
 data_file 'ANIM_DICT' 'stream/anim@cop_radio_pose.ycd'
